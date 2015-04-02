@@ -1,2 +1,1 @@
-# SimpleCorba
-一个简单的Corba实现，从IDL开始书写，实现分布式Corba
+# SimpleCorba> 一个简单的Corba实现，从IDL开始书写，实现分布式Corba1. 编写IDL文件，来定义实现的接口2. 通过idlj编译器，编译idl文件，生成相应的stub和skelton
