@@ -5,7 +5,7 @@ public class HelloServiceClient {
 		try {
 			Context namingContext = new InitialContext();
 			HelloService service = (HelloService)namingContext.lookup(
-				"rmi://localhost/HelloService");
+				"rmi://127.0.0.1:6006/HelloService");
 
 			int[] arrays = {5, 9, 10, 3, 2};
 			System.out.println(service.echo("RMI"));
